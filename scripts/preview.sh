@@ -23,8 +23,10 @@ capture() {
     -e COLORTERM=truecolor -e TERM=xterm-256color -e LC_ALL=C.UTF-8 \
     "$(command -v helix || command -v hx) scripts/generate.py"
   sleep 1.5
-  # Go to the STYLES table and select three lines.
-  tmux -L kanagawa-preview send-keys -t s 28 g g x x x
+  # Search for the "string" entry of the STYLES table and select three lines.
+  tmux -L kanagawa-preview send-keys -t s /
+  tmux -L kanagawa-preview send-keys -t s -l '"string": '
+  tmux -L kanagawa-preview send-keys -t s Enter x x x
   sleep 0.7
   tmux -L kanagawa-preview capture-pane -p -e -t s >"$2"
 }
