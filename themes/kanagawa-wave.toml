@@ -1,0 +1,99 @@
+# Kanagawa Wave
+# https://github.com/kanagawa-community/helix
+
+"attribute" = { fg = "#ffa066" }
+"type" = { fg = "#7aa89f" }
+"type.builtin" = { fg = "#7aa89f" }
+"type.enum.variant" = { fg = "#ffa066" }
+"constructor" = { fg = "#7fb4ca" }
+"constant" = { fg = "#ffa066" }
+"constant.builtin.boolean" = { fg = "#ffa066", modifiers = ["bold"] }
+"constant.numeric" = { fg = "#d27e99" }
+"constant.character" = { fg = "#98bb6c" }
+"constant.character.escape" = { fg = "#c0a36e", modifiers = ["bold"] }
+"string" = { fg = "#98bb6c" }
+"string.regexp" = { fg = "#c0a36e" }
+"string.special" = { fg = "#7fb4ca" }
+"string.special.symbol" = { fg = "#e6c384" }
+"comment" = { fg = "#727169", modifiers = ["italic"] }
+"variable" = { fg = "#dcd7ba" }
+"variable.parameter" = { fg = "#b8b4d0" }
+"variable.builtin" = { fg = "#e46876", modifiers = ["italic"] }
+"variable.other.member" = { fg = "#e6c384" }
+"label" = { fg = "#7fb4ca" }
+"punctuation" = { fg = "#9cabca" }
+"punctuation.special" = { fg = "#7fb4ca" }
+"keyword" = { fg = "#957fb8", modifiers = ["italic"] }
+"keyword.control" = { fg = "#957fb8" }
+"keyword.control.import" = { fg = "#e46876" }
+"keyword.control.return" = { fg = "#ff5d62", modifiers = ["italic"] }
+"keyword.control.exception" = { fg = "#ff5d62" }
+"keyword.directive" = { fg = "#e46876" }
+"keyword.operator" = { fg = "#c0a36e", modifiers = ["bold"] }
+"operator" = { fg = "#c0a36e" }
+"function" = { fg = "#7e9cd8" }
+"function.builtin" = { fg = "#7fb4ca" }
+"function.macro" = { fg = "#e46876" }
+"tag" = { fg = "#7e9cd8" }
+"tag.attribute" = { fg = "#e6c384" }
+"namespace" = { fg = "#e6c384" }
+"special" = { fg = "#7fb4ca" }
+"markup.heading" = { fg = "#7e9cd8", modifiers = ["bold"] }
+"markup.list" = { fg = "#7fb4ca" }
+"markup.list.unchecked" = { fg = "#54546d" }
+"markup.list.checked" = { fg = "#98bb6c" }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.underline" = { modifiers = ["underlined"] }
+"markup.link.text" = { fg = "#7e9cd8" }
+"markup.link.label" = { fg = "#7e9cd8" }
+"markup.raw" = { fg = "#98bb6c" }
+"markup.quote" = { fg = "#b8b4d0" }
+"diff.plus" = { fg = "#76946a" }
+"diff.minus" = { fg = "#c34043" }
+"diff.delta" = { fg = "#dca561" }
+"ui.background" = { fg = "#dcd7ba", bg = "#1f1f28" }
+"ui.linenr" = { fg = "#54546d" }
+"ui.linenr.selected" = { fg = "#ff9e3b", modifiers = ["bold"] }
+"ui.statusline" = { fg = "#c8c093", bg = "#16161d" }
+"ui.statusline.inactive" = { fg = "#54546d", bg = "#16161d" }
+"ui.statusline.normal" = { fg = "#1f1f28", bg = "#7e9cd8", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "#1f1f28", bg = "#98bb6c", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "#1f1f28", bg = "#957fb8", modifiers = ["bold"] }
+"ui.popup" = { fg = "#c8c093", bg = "#16161d" }
+"ui.help" = { fg = "#c8c093", bg = "#16161d" }
+"ui.window" = { fg = "#16161d" }
+"ui.bufferline" = { fg = "#c8c093", bg = "#16161d" }
+"ui.bufferline.active" = { fg = "#dcd7ba", bg = "#1f1f28", modifiers = ["bold"] }
+"ui.bufferline.background" = { bg = "#16161d" }
+"ui.text" = { fg = "#dcd7ba" }
+"ui.text.focus" = { fg = "#dcd7ba", bg = "#363646", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "#727169" }
+"ui.text.directory" = { fg = "#7e9cd8" }
+"ui.virtual" = { fg = "#54546d" }
+"ui.virtual.ruler" = { bg = "#2a2a37" }
+"ui.virtual.indent-guide" = { fg = "#54546d" }
+"ui.virtual.inlay-hint" = { fg = "#727169" }
+"ui.virtual.jump-label" = { fg = "#ff5d62", modifiers = ["bold"] }
+"ui.selection" = { bg = "#223249" }
+"ui.cursor" = { fg = "#1f1f28", bg = "#c8c093" }
+"ui.cursor.primary" = { fg = "#1f1f28", bg = "#dcd7ba" }
+"ui.cursor.match" = { fg = "#ff9e3b", modifiers = ["bold"] }
+"ui.cursorline.primary" = { bg = "#363646" }
+"ui.highlight" = { bg = "#363646" }
+"ui.menu" = { fg = "#dcd7ba", bg = "#223249" }
+"ui.menu.selected" = { fg = "#dcd7ba", bg = "#2d4f67", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "#2d4f67", bg = "#223249" }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"error" = { fg = "#e82424" }
+"warning" = { fg = "#ff9e3b" }
+"info" = { fg = "#658594" }
+"hint" = { fg = "#6a9589" }
+"string.special.url" = { fg = "#7fb4ca", underline = { color = "#7fb4ca", style = "curl" } }
+"markup.link.url" = { fg = "#7fb4ca", underline = { color = "#7fb4ca", style = "curl" } }
+"diagnostic.error" = { underline = { color = "#e82424", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "#ff9e3b", style = "curl" } }
+"diagnostic.info" = { underline = { color = "#658594", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "#6a9589", style = "curl" } }
